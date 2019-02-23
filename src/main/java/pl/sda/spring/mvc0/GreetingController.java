@@ -10,6 +10,6 @@ public class GreetingController {
 
     @GetMapping("/greeting")
     public String greeting() {
-        return "greeting";
+        return "greet";
     }
 }
